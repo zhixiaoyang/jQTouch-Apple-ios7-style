@@ -1,0 +1,1580 @@
+/**
+ * Background noise recipe
+ * 
+ * This recipe use a sass function to generate a .png file
+ * 
+ * Inspired by a jQuery plugin "Noisy" by Daniel Rapp @DanielRapp
+ * @link https://github.com/DanielRapp/Noisy
+ * 
+ * Converted using Sass by Aaron Russell @aaronrussell & Philipp Bosch @philippbosch
+ * @link https://gist.github.com/1021332
+ * 
+ * Ported to a sass gem by Antti Salonen @antsa
+ * @link https://github.com/antsa/sassy_noise
+ * 
+ * Mixin:        background-noise
+ * Function:     background_noise
+ * 
+ * @author Daniel Rapp @DanielRapp
+ * @author Aaron Russell @aaronrussell
+ * @author Philipp Bosch @philippbosch
+ * @author Antti Salonen @antsa
+ * @author Maxime Thirouin maxime.thirouin@gmail.com @MoOx
+ */
+/**
+ *
+ * @class Gradients
+ * @author David Kaneda http://www.davidkaneda.com/
+ *
+ */
+/**
+ * Adds a background gradient into a specified selector.
+ * 
+ *     @include background-gradient(#444, 'glossy');
+ * 
+ * You can also use color-stops if you want full control of the gradient:
+ * 
+ *     @include background-gradient(#444, color-stops(#333, #222, #111));
+ * 
+ * @param {color} $bg-color
+ * The base color of the gradient.
+ * 
+ * @param {string/list} $type
+ * The style of the gradient, one of five pre-defined options: matte, bevel, glossy, recessed, or linear:
+ *
+ *     @include background-gradient(red, 'glossy');
+ *
+ * It can also accept a list of color-stop values:;
+ * 
+ *     @include background-gradient(black, color-stops(#333, #111, #000));
+ * 
+ * @param {string} $direction
+ * The direction of the gradient.
+ */
+/**
+ * Blueprint grid background pattern
+ * 
+ * @link http://lea.verou.me/css3patterns/#blueprint-grid
+ *
+ * @author Lea Verou http://lea.verou.me/ for the original pattern
+ * @author Maxime Thirouin maxime.thirouin@gmail.com @MoOx for the sass mixin
+ */
+/**
+ * Background overlay inspired by Google Chrome modal overlay
+ * 
+ * @author Maxime Thirouin @MoOx maxime.thirouin@gmail.com
+ */
+/**
+ * Striped background pattern
+ * 
+ * @link http://lea.verou.me/css3patterns/
+ *
+ * @author Lea Verou http://lea.verou.me/ for the original pattern
+ * @author David Kaneda http://www.davidkaneda.com @davidkaneda for the sass mixin
+ */
+/**
+ *
+ * Before compass 0.11.5, you need to add
+ * Compass::BrowserSupport.add_support("repeating-linear-gradient", "webkit", "moz", "o", "ms")
+ * To your configuration (config.rb)
+ * @see https://github.com/chriseppstein/compass/issues/401
+ *
+ * @link http://lea.verou.me/css3patterns/#tartan
+ *
+ * @author Marta Armada http://swwweet.com/ for the original pattern
+ * @author Maxime Thirouin maxime.thirouin@gmail.com @MoOx for the sass mixin
+ */
+/**
+ * Carbon Fiber background pattern
+ *
+ * @author Lea Verou http://lea.verou.me/ for the original pattern
+ * @author David Kaneda http://www.davidkaneda.com/ for the Sass mixin
+ *
+ * @link http://lea.verou.me/css3patterns/
+ *
+ */
+/**
+ * Normalize.css
+ * Opposite approche from CSS reset
+ * 
+ * Based on normalize.css commit 9576d48fc234c5224b1fc4dccba2f5965243843d
+ *
+ * @link http://github.com/necolas/normalize.css
+ */
+/* normalize.css 2011-07-12T10:51 UTC · http://github.com/necolas/normalize.css */
+/* =============================================================================
+   HTML5 element display
+   ========================================================================== */
+/* =============================================================================
+   Base
+   ========================================================================== */
+/* =============================================================================
+   Links
+   ========================================================================== */
+/* =============================================================================
+   Typography
+   ========================================================================== */
+/* =============================================================================
+   Lists
+   ========================================================================== */
+/* =============================================================================
+   Embedded content
+   ========================================================================== */
+/* =============================================================================
+   Figures
+   ========================================================================== */
+/* =============================================================================
+   Forms
+   ========================================================================== */
+/* =============================================================================
+   Tables
+   ========================================================================== */
+/**
+ *
+ * @author David Kaneda - http://www.davidkaneda.com
+ *
+ */
+/**
+ * @class Color
+ */
+/**
+ * Returns the brightness (out of 100) of a specified color.
+ * @todo explain why this is useful
+ * @param {color} $color The color you want the brightness value of
+ * @return {measurement}
+ */
+/**
+ * Returns the luminosity for a specified color
+ * @todo explain why this is useful
+ * @param {color} The color to check
+ * @return {measurement}
+ */
+/**
+ * Glass effect
+ * Use this on image for better effect render
+ * 
+ * Inspired from Simurai's IMDB redisign
+ *
+ * @link http://lab.simurai.com/redesign/imdb
+ * @thanks Simurai @simurai
+ */
+/**
+ * Note IE7/6 doesn't understand pseudo element as ::before and ::after
+ * IE8 need to have :before and not ::before
+ * So use only : and not :: if you want to support IE8
+ * IE9 Webkit Firefox Opera understand ::
+ */
+/**
+ * Scotch tape effect with pure CSS
+ * 
+ * @thanks Nick La @nickla for original concept
+ * @link http://webdesignerwall.com/tutorials/css3-image-styles
+ * 
+ * @author David Kaneda http://www.davidkaneda.com
+ *
+ */
+/**
+ * Note IE7/6 doesn't understand pseudo element as ::before and ::after
+ * IE8 need to have :before and not ::before
+ * So use only : and not :: if you want to support IE8
+ * IE9 Webkit Firefox Opera understand ::
+ */
+/**
+ * Corner folded with pure CSS
+ * 
+ * Known support: Firefox 3.5+, Chrome 4+, Safari 4+, Opera 10+, IE 9+.
+ * IE8 is not supported because it not render properly box-shadow and
+ * pseudo element should be selected with ::element and not :element
+ * 
+ * @thanks Nicolas Gallagher @necolas
+ * @link http://nicolasgallagher.com/pure-css-folded-corner-effect/demo/
+ * @todo Nix in .4
+ */
+/**
+ * Note IE7/6 doesn't understand pseudo element as ::before and ::after
+ * IE8 need to have :before and not ::before
+ * So use only : and not :: if you want to support IE8
+ * IE9 Webkit Firefox Opera understand ::
+ */
+/**
+ * Corner folded with pure CSS
+ * 
+ * Known support: Firefox 3.5+, Chrome 4+, Safari 4+, Opera 10+, IE 9+.
+ * IE8 is not supported because it not render properly box-shadow and
+ * pseudo element should be selected with ::element and not :element
+ * 
+ * @thanks Nicolas Gallagher @necolas
+ * @link http://nicolasgallagher.com/pure-css-folded-corner-effect/demo/
+ */
+/**
+ * Note IE7/6 doesn't understand pseudo element as ::before and ::after
+ * IE8 need to have :before and not ::before
+ * So use only : and not :: if you want to support IE8
+ * IE9 Webkit Firefox Opera understand ::
+ */
+/**
+ * Form element inline mixin
+ * This mixin allow you to have a label inline with your input
+ * It's simply based on inline-block behavior
+ *
+ * @author Maxime Thirouin maxime.thirouin@gmail.com @MoOx
+ */
+/**
+ * Vertical alignement for page
+ * Inspired by http://css-tricks.com/snippets/css/center-div-with-dynamic-height/
+ * 
+ * Usage:
+ * 
+ * SCSS
+ * @include vertical-align-requirement;
+ * .v-align-container { @include vertical-align-container }
+ * .v-align-content-container { @include vertical-align-content-container }
+ * .v-align-content { @include vertical-align-content }
+ * 
+ * HTML
+ * <body>
+ *     <div class="v-align-container">
+ *         <div class="v-align-content-container">
+ *             <div class="v-align-content">
+ *             Your content !
+ *             </div>
+ *         </div> 
+ *     </div>
+ * </body>
+ *
+ * @thanks Chris Coyier @chriscoyier
+ * @autor Maxime Thirouin maxime.thirouin@gmail.com @MoOx
+ */
+/**
+ * Media Queries Mixins
+ * 
+ * @todo Do we have to take care of print ?
+ * 
+ * @require sass-3.2 (you need eventually to do "sudo gem install sass --pre")
+ * @author Maxime Thirouin <maxime.thirouin@gmail.com>
+ */
+/*
+$media-query-width-big: 1280px;
+$media-query-width-medium: 960px;
+$media-query-width-small: 480px;
+*/
+/**
+ * Drop shadow mixins from Nicolas Gallagher demo
+ * 
+ * @thanks Nicolas Gallagher @necolas, @simurai, @cameronmoll, @matthamm
+ * 
+ * @link http://nicolasgallagher.com/css-drop-shadows-without-images/demo/
+ */
+/**
+ * Drop shadow curled
+ *
+ * @thanks Nicolas Gallagher @necolas
+ * @link http://nicolasgallagher.com/css-drop-shadows-without-images/demo/
+ */
+/**
+ * Drop shadow curved
+ *
+ * @thanks Nicolas Gallagher @necolas
+ * @link http://nicolasgallagher.com/css-drop-shadows-without-images/demo/
+ */
+/**
+ * Drop shadow flying
+ *
+ * @thanks Geoffrey Crofte @geoffrey_crofte
+ * @link http://www.creativejuiz.fr/trytotry/css3-box-shadow-after-before/
+ */
+/**
+ * Drop shadow w/ lifted corners
+ *
+ * @thanks Nicolas Gallagher @necolas
+ * @link http://nicolasgallagher.com/css-drop-shadows-without-images/demo/
+ */
+/**
+ * Drop shadow w/ perspective
+ *
+ * @thanks Nicolas Gallagher @necolas
+ * @link http://nicolasgallagher.com/css-drop-shadows-without-images/demo/
+ */
+/**
+ * Drop shadow raised
+ *
+ * @thanks Nicolas Gallagher @necolas
+ * @link http://nicolasgallagher.com/css-drop-shadows-without-images/demo/
+ */
+/**
+ * Drop shadow rules required for transform on drop shadow
+ * 
+ * /!\ This is required if you want to apply some transform on the element using drop shadow
+ *
+ * @thanks Nicolas Gallagher @necolas
+ * @link http://nicolasgallagher.com/css-drop-shadows-without-images/demo/
+ */
+/**
+ * Shadow along the top edge of the browser viewport
+ * 
+ * @link http://playground.genelocklin.com/depth/
+ */
+/**
+* Shapes !
+* Polygons, ellipses and symbols
+* 
+* @thanks Chris Coyier @chriscoyier
+* @link http://css-tricks.com/examples/ShapesOfCSS/
+* @author Maxime Thirouin maxime.thirouin@gmail.com @MoOx
+*/
+/**
+ * Shape/Ellipse
+ *
+ * @author Maxime Thirouin maxime.thirouin@gmail.com @MoOx
+ */
+/**
+ * Shape/Polygon
+ *
+ * @author Maxime Thirouin maxime.thirouin@gmail.com @MoOx
+ */
+/**
+ * Shape/Polygon/Hexagon
+ *
+ * @author Maxime Thirouin maxime.thirouin@gmail.com @MoOx
+ */
+/**
+ * Shape/Polygon/Octagon
+ *
+ * @author Maxime Thirouin maxime.thirouin@gmail.com @MoOx
+ */
+/**
+ * Shape/Polygon/Parallelogram
+ *
+ * @author Maxime Thirouin maxime.thirouin@gmail.com @MoOx
+ */
+/**
+ * Shape/Polygon/Pentagon
+ *
+ * @author Maxime Thirouin maxime.thirouin@gmail.com @MoOx
+ */
+/**
+ * Shape/Polygon/Rectangle
+ *
+ * @author Maxime Thirouin maxime.thirouin@gmail.com @MoOx
+ */
+/**
+ * Shape/Polygon/Rhombus
+ *
+ * @author Maxime Thirouin maxime.thirouin@gmail.com @MoOx
+ */
+/**
+ * Shape/Polygon/Square
+ *
+ * @author Maxime Thirouin maxime.thirouin@gmail.com @MoOx
+ */
+/**
+ * Shape/Polygon/Star
+ *
+ * @todo check if setting a z-index by default is a good thing
+ * @author Maxime Thirouin maxime.thirouin@gmail.com @MoOx
+ */
+/**
+ * Shape/Polygon/Trapezoid
+ *
+ * @author Maxime Thirouin maxime.thirouin@gmail.com @MoOx
+ */
+/**
+ * Shape/Polygon/Triangle
+ *
+ * @author Maxime Thirouin maxime.thirouin@gmail.com @MoOx
+ */
+/**
+ * Shape/Symbol
+ *
+ * @author Maxime Thirouin maxime.thirouin@gmail.com @MoOx
+ */
+/**
+ * Shape/Symbol/Diamond
+ *
+ * @todo add height support
+ * 
+ * @author Alexander Futekov
+ * @author Maxime Thirouin maxime.thirouin@gmail.com @MoOx
+ */
+/**
+ * Shape/Symbol/Egg
+ *
+ * @author Maxime Thirouin maxime.thirouin@gmail.com @MoOx
+ */
+/**
+ * Shape/Symbol/Heart
+ * 
+ * @author Nicolas Gallagher @necolas
+ * @author Maxime Thirouin maxime.thirouin@gmail.com @MoOx
+ */
+/**
+ * Shape/Symbol/Infinity
+ * 
+ * @author Nicolas Gallagher @necolas
+ * @author Maxime Thirouin maxime.thirouin@gmail.com @MoOx
+ */
+/**
+ * Shape/Symbol/Pacman
+ *
+ * @author Maxime Thirouin maxime.thirouin@gmail.com @MoOx
+ */
+/**
+ * Shape/Symbol/Yin-yang
+ *
+ * @author Alexander Futekov
+ * @author Maxime Thirouin maxime.thirouin@gmail.com @MoOx
+ */
+/**
+ * Micro clearfix hack
+ * 
+ * The clearfix hack is a popular way to clear floats without resorting to using presentational markup. This article presents an update to the clearfix method that further reduces the amount of CSS required.
+ * Known support: Firefox 2+, Safari 2+, Chrome, Opera 9.27+, IE 6+, IE Mac.
+ *
+ * @thanks Nicolas Gallagher @necolas
+ * @link http://nicolasgallagher.com/micro-clearfix-hack/
+ */
+/**
+ * Note IE7/6 doesn't understand pseudo element as ::before and ::after
+ * IE8 need to have :before and not ::before
+ * So use only : and not :: if you want to support IE8
+ * IE9 Webkit Firefox Opera understand ::
+ */
+/**
+ * UI convex effect from one color
+ *
+ * @todo merge with ui-button ?
+ *
+ * @author Maxime Thirouin maxime.thirouin@gmail.com @MoOx
+ */
+/**
+ * UI Glossy helper
+ *
+ * @deprecated
+ * @todo Remove in 0.4
+ * @see background/gradients
+ *
+ * @author Maxime Thirouin maxime.thirouin@gmail.com @MoOx
+ */
+/**
+ * UI simple gradient from one color
+ *
+ * @todo merge with ui-button ?
+ *
+ * @author Maxime Thirouin maxime.thirouin@gmail.com @MoOx
+ */
+/**
+ * Shape/Polygon/Triangle
+ *
+ * @author Maxime Thirouin maxime.thirouin@gmail.com @MoOx
+ */
+/**
+ * Keyboard key touch
+ * A simple stylesheet for rendering beautiful keyboard-style elements.
+
+ * @author Michael Hüneburg http://michaelhue.com/keyscss
+ * @link https://github.com/michaelhue/keyscss (commit 76bb603e921d0145362e0f60eabb79d4f69cbda0)
+ *
+ * @author Maxime Thirouin @MoOx maxime.thirouin@gmail.com
+*/
+/**
+ * Menu dropdown helper
+ *
+ * @author Maxime Thirouin @MoOx maxime.thirouin@gmail.com
+*/
+/**
+ * Ui background overlay inspired by Google Chrome modal overlay
+ * 
+ * @author Maxime Thirouin @MoOx maxime.thirouin@gmail.com
+ */
+/**
+ * Background overlay inspired by Google Chrome modal overlay
+ * 
+ * @author Maxime Thirouin @MoOx maxime.thirouin@gmail.com
+ */
+/**
+ * <hr /> separator style
+ *
+ * @author Chris Coyier @chriscoyier
+ * @link http://jsfiddle.net/chriscoyier/GaEzp/35/
+ *
+ * @author Maxime Thirouin @MoOx maxime.thirouin@gmail.com
+ */
+/**
+ * Micro clearfix hack
+ * 
+ * The clearfix hack is a popular way to clear floats without resorting to using presentational markup. This article presents an update to the clearfix method that further reduces the amount of CSS required.
+ * Known support: Firefox 2+, Safari 2+, Chrome, Opera 9.27+, IE 6+, IE Mac.
+ *
+ * @thanks Nicolas Gallagher @necolas
+ * @link http://nicolasgallagher.com/micro-clearfix-hack/
+ */
+/**
+ * Note IE7/6 doesn't understand pseudo element as ::before and ::after
+ * IE8 need to have :before and not ::before
+ * So use only : and not :: if you want to support IE8
+ * IE9 Webkit Firefox Opera understand ::
+ */
+/**
+ *
+ * @class Gradients
+ * @author David Kaneda http://www.davidkaneda.com/
+ *
+ */
+/**
+ * Adds a background gradient into a specified selector.
+ * 
+ *     @include background-gradient(#444, 'glossy');
+ * 
+ * You can also use color-stops if you want full control of the gradient:
+ * 
+ *     @include background-gradient(#444, color-stops(#333, #222, #111));
+ * 
+ * @param {color} $bg-color
+ * The base color of the gradient.
+ * 
+ * @param {string/list} $type
+ * The style of the gradient, one of five pre-defined options: matte, bevel, glossy, recessed, or linear:
+ *
+ *     @include background-gradient(red, 'glossy');
+ *
+ * It can also accept a list of color-stop values:;
+ * 
+ *     @include background-gradient(black, color-stops(#333, #111, #000));
+ * 
+ * @param {string} $direction
+ * The direction of the gradient.
+ */
+/**
+ * @class Webfont Icon
+ * Great to use with the [Pictos font](http://pictos.drewwilson.com/)
+ * 
+ */
+/**
+ * @cfg {color} $webfont-icon-base-color
+ * The default color of icons when using the {@link #webfont-icon} mixin.
+ * 
+ * Defaults to `white`.
+ */
+/**
+ * @cfg {color} $webfont-icon-default-stroke
+ * The default color to use on the border of icons, when using the {@link #webfont-icon} mixin.
+ * 
+ * Defaults to `null`.
+ */
+/**
+ * @cfg {string} $webfont-icon-default-gradient
+ * The default gradient to use when using the {@link #webfont-icon} mixin.
+ * 
+ * Defaults to `matte`.
+ */
+.webfont-icon-base {
+  color: transparent;
+  -webkit-background-clip: text;
+  background-clip: text;
+  position: absolute;
+  top: 0;
+  left: 0;
+  text-indent: 0;
+  text-shadow: none;
+  -webkit-user-select: none;
+  user-select: none; }
+
+/**
+ * Includes a character into the specified selector, styled as an icon.
+ * 
+ *     @include webfont-icon('a');
+ * 
+ * @param {color} $color
+ * The color of the icon. Defaults to {@link #$webfont-icon-default-background $webfont-icon-default-background}.
+ * 
+ * @param {measurement} $size
+ * The size of the icon
+ * 
+ * @param {color} $stroke
+ * The color of the border. Defautls to {@link #$webfont-icon-default-border $webfont-icon-default-border}.
+ * 
+ * @param {boolean} $include-staes
+ * True to include states for hover and active. Defaults to `true`.
+ */
+* {
+  margin: 0;
+  padding: 0; }
+
+body {
+  -webkit-tap-highlight-color: rgba(0, 0, 0, 0);
+  -webkit-touch-callout: none; }
+
+#jqt {
+  -webkit-text-size-adjust: none;
+  -webkit-user-select: none;
+  user-select: none;
+  font-family: "Helvetica Neue", Helvetica;
+  position: absolute;
+  right: 0;
+  top: 0;
+  left: 0;
+  bottom: 0; }
+  #jqt a {
+    -webkit-tap-highlight-color: rgba(0, 0, 0, 0);
+    -webkit-user-drag: none; }
+  #jqt .selectable, #jqt input, #jqt textarea {
+    -webkit-user-select: auto; }
+  #jqt.notransform {
+    -webkit-transform: none !important; }
+  #jqt > * {
+    display: block;
+    left: 0;
+    top: 0;
+    min-height: 100%;
+    width: 100%;
+    overflow-x: hidden;
+    position: absolute;
+    z-index: 0;
+    display: -webkit-box;
+    display: box;
+    -webkit-box-orient: vertical;
+    box-orient: vertical;
+    -webkit-box-flex: 1;
+    box-flex: 1; }
+  #jqt > .current {
+    z-index: 10; }
+  #jqt > :not(.current) {
+    display: none; }
+  #jqt.touchscroll:not(.animating3d) {
+    overflow-y: auto;
+    -webkit-overflow-scrolling: touch; }
+    #jqt.touchscroll:not(.animating3d) > * {
+      height: 100%; }
+    #jqt.touchscroll:not(.animating3d) .scroll {
+      position: relative;
+      -webkit-box-flex: 1;
+      box-flex: 1;
+      overflow-y: auto;
+      -webkit-overflow-scrolling: touch; }
+  #jqt .scroll {
+    -webkit-margin-collapse: separate; }
+  #jqt .in, #jqt .out {
+    -webkit-animation-duration: 250ms;
+    -webkit-animation-fill-mode: both;
+    -webkit-animation-timing-function: ease-in-out; }
+  #jqt .in {
+    z-index: 10; }
+    #jqt .in:after {
+      content: "";
+      position: absolute;
+      display: block;
+      top: 0;
+      left: 0;
+      bottom: 0;
+      right: 0; }
+  #jqt .out {
+    z-index: 0 !important; }
+  #jqt.supports3d {
+    -webkit-perspective: 1000; }
+    #jqt.supports3d > * {
+      -webkit-transform: translate3d(0, 0, 0) rotate(0) scale(1); }
+
+/* Fade */
+#jqt .fade.in {
+  -webkit-animation-name: fadeIn; }
+
+#jqt .fade.out {
+  z-index: 10;
+  -webkit-animation-name: fadeOut; }
+
+@-webkit-keyframes fadeIn {
+  0% {
+    opacity: 0; }
+
+  100% {
+    opacity: 1; } }
+
+@-webkit-keyframes fadeOut {
+  0% {
+    opacity: 1; }
+
+  100% {
+    opacity: 1; } }
+
+/* Disolve */
+#jqt .dissolve.in {
+  -webkit-animation-name: dissolveIn; }
+
+#jqt .dissolve.out {
+  -webkit-animation-name: dissolveOut; }
+
+@-webkit-keyframes dissolveIn {
+  0% {
+    opacity: 0; }
+
+  100% {
+    opacity: 1; } }
+
+@-webkit-keyframes dissolveOut {
+  0% {
+    opacity: 1; }
+
+  100% {
+    opacity: 0; } }
+
+/* #Popin' */
+#jqt .pop.in {
+  -webkit-animation-name: popIn; }
+
+#jqt .pop.out {
+  -webkit-animation-name: popOut; }
+
+@-webkit-keyframes popIn {
+  0% {
+    -webkit-transform: scale(0.2);
+    opacity: 0; }
+
+  100% {
+    -webkit-transform: scale(1);
+    opacity: 1; } }
+
+@-webkit-keyframes popOut {
+  0% {
+    -webkit-transform: scale(1);
+    opacity: 1; }
+
+  100% {
+    -webkit-transform: scale(0.2);
+    opacity: 0; } }
+
+/* Slide Left */
+#jqt .slideleft.in {
+  -webkit-animation-name: slideLeftIn; }
+
+#jqt .slideleft.out {
+  -webkit-animation-name: slideLeftOut; }
+
+@-webkit-keyframes slideLeftIn {
+  0% {
+    -webkit-transform: translateX(100%); }
+
+  100% {
+    -webkit-transform: translateX(0); } }
+
+@-webkit-keyframes slideLeftOut {
+  0% {
+    -webkit-transform: translateX(0px); }
+
+  100% {
+    -webkit-transform: translateX(-100%); } }
+
+/* Slide Right */
+#jqt .slideright.in {
+  -webkit-animation-name: slideRightIn; }
+
+#jqt .slideright.out {
+  -webkit-animation-name: slideRightOut; }
+
+@-webkit-keyframes slideRightIn {
+  0% {
+    -webkit-transform: translateX(-100%); }
+
+  100% {
+    -webkit-transform: translateX(0); } }
+
+@-webkit-keyframes slideRightOut {
+  0% {
+    -webkit-transform: translateX(0); }
+
+  100% {
+    -webkit-transform: translateX(100%); } }
+
+/* Slide Up */
+#jqt .slideup.in {
+  z-index: 10;
+  -webkit-animation-name: slideUpIn; }
+
+#jqt .slideup.out {
+  z-index: 0;
+  -webkit-animation-name: slideUpOut; }
+
+@-webkit-keyframes slideUpIn {
+  0% {
+    -webkit-transform: translateY(100%); }
+
+  100% {
+    -webkit-transform: translateY(0); } }
+
+@-webkit-keyframes slideUpOut {
+  0% {
+    -webkit-transform: translateY(0); }
+
+  100% {
+    -webkit-transform: translateY(0); } }
+
+/* Slide Down */
+#jqt .slidedown.in {
+  z-index: 0;
+  -webkit-animation-name: slideDownIn; }
+
+#jqt .slidedown.out {
+  z-index: 10;
+  -webkit-animation-name: slideDownOut; }
+
+@-webkit-keyframes slideDownIn {
+  0% {
+    -webkit-transform: translateY(0); }
+
+  100% {
+    -webkit-transform: translateY(0); } }
+
+@-webkit-keyframes slideDownOut {
+  0% {
+    -webkit-transform: translateY(0); }
+
+  100% {
+    -webkit-transform: translateY(100%); } }
+
+/* Flip Left */
+#jqt .flipleft {
+  -webkit-backface-visibility: hidden; }
+
+#jqt .flipleft.in {
+  -webkit-animation-name: flipLeftIn; }
+
+#jqt .flipleft.out {
+  -webkit-animation-name: flipLeftOut; }
+
+@-webkit-keyframes flipLeftIn {
+  0% {
+    -webkit-transform: rotateY(180deg) scale(0.8); }
+
+  100% {
+    -webkit-transform: rotateY(0deg) scale(1); } }
+
+@-webkit-keyframes flipLeftOut {
+  0% {
+    -webkit-transform: rotateY(0deg) scale(1); }
+
+  100% {
+    -webkit-transform: rotateY(-180deg) scale(0.8); } }
+
+/* Flip Right */
+#jqt .flipright {
+  -webkit-backface-visibility: hidden; }
+
+#jqt .flipright.in {
+  -webkit-animation-name: flipRightIn; }
+
+#jqt .flipright.out {
+  -webkit-animation-name: flipRightOut; }
+
+@-webkit-keyframes flipRightIn {
+  0% {
+    -webkit-transform: rotateY(-180deg) scale(0.8); }
+
+  100% {
+    -webkit-transform: rotateY(0deg) scale(1); } }
+
+@-webkit-keyframes flipRightOut {
+  0% {
+    -webkit-transform: rotateY(0deg) scale(1); }
+
+  100% {
+    -webkit-transform: rotateY(180deg) scale(0.8); } }
+
+/* Swap Right */
+#jqt .swapright {
+  -webkit-animation-duration: .7s;
+  -webkit-transform: perspective(800);
+  -webkit-animation-timing-function: ease-out; }
+
+#jqt .swapright.in {
+  -webkit-animation-name: swapRightIn; }
+
+#jqt .swapright.out {
+  -webkit-animation-name: swapRightOut; }
+
+@-webkit-keyframes swapRightIn {
+  0% {
+    -webkit-transform: translate3d(0px, 0px, -800px) rotateY(70deg);
+    opacity: 0; }
+
+  35% {
+    -webkit-transform: translate3d(-180px, 0px, -400px) rotateY(20deg);
+    opacity: 1; }
+
+  100% {
+    -webkit-transform: translate3d(0px, 0px, 0px) rotateY(0deg);
+    opacity: 1; } }
+
+@-webkit-keyframes swapRightOut {
+  0% {
+    -webkit-transform: translate3d(0px, 0px, 0px) rotateY(0deg);
+    opacity: 1; }
+
+  35% {
+    -webkit-transform: translate3d(180px, 0px, -400px) rotateY(-20deg);
+    opacity: .5; }
+
+  100% {
+    -webkit-transform: translate3d(0px, 0px, -800px) rotateY(-70deg);
+    opacity: 0; } }
+
+/* Swap Left */
+#jqt .swapleft {
+  -webkit-animation-duration: .7s;
+  -webkit-transform: perspective(800);
+  -webkit-animation-timing-function: ease-out; }
+
+#jqt .swapleft.in {
+  -webkit-animation-name: swapLeftIn; }
+
+#jqt .swapleft.out {
+  -webkit-animation-name: swapLeftOut; }
+
+@-webkit-keyframes swapLeftIn {
+  0% {
+    -webkit-transform: translate3d(0px, 0px, -800px) rotateY(-70deg);
+    opacity: 0; }
+
+  35% {
+    -webkit-transform: translate3d(180px, 0px, -400px) rotateY(-20deg);
+    opacity: 1; }
+
+  100% {
+    opacity: 1;
+    -webkit-transform: translate3d(0px, 0px, 0px) rotateY(0deg); } }
+
+@-webkit-keyframes swapLeftOut {
+  0% {
+    -webkit-transform: translate3d(0px, 0px, 0px) rotateY(0deg);
+    opacity: 1; }
+
+  35% {
+    -webkit-transform: translate3d(-180px, 0px, -400px) rotateY(20deg);
+    opacity: .5; }
+
+  100% {
+    -webkit-transform: translate3d(0px, 0px, -800px) rotateY(70deg);
+    opacity: 0; } }
+
+/* Cube Left */
+#jqt .cubeleft.in, #jqt .cubeleft.out, #jqt .cuberight.in, #jqt .cuberight.out {
+  -webkit-animation-duration: .6s;
+  -webkit-transform: perspective(800); }
+
+#jqt .cubeleft.in {
+  -webkit-transform-origin: 0% 50%;
+  -webkit-animation-name: cubeLeftIn; }
+
+#jqt .cubeleft.out {
+  -webkit-transform-origin: 100% 50%;
+  -webkit-animation-name: cubeLeftOut; }
+
+@-webkit-keyframes cubeLeftIn {
+  0% {
+    -webkit-transform: rotateY(90deg) translateZ(320px);
+    opacity: .5; }
+
+  100% {
+    -webkit-transform: rotateY(0deg) translateZ(0) translateX(0);
+    opacity: 1; } }
+
+@-webkit-keyframes cubeLeftOut {
+  0% {
+    -webkit-transform: rotateY(0deg) translateZ(0) translateX(0);
+    opacity: 1; }
+
+  100% {
+    -webkit-transform: rotateY(-90deg) translateZ(320px);
+    opacity: .5; } }
+
+/* Cube Right */
+#jqt .cuberight.in {
+  -webkit-transform-origin: 100% 50%;
+  -webkit-animation-name: cubeRightIn; }
+
+#jqt .cuberight.out {
+  -webkit-transform-origin: 0% 50%;
+  -webkit-animation-name: cubeRightOut; }
+
+@-webkit-keyframes cubeRightIn {
+  0% {
+    -webkit-transform: rotateY(-90deg) translateZ(320px);
+    opacity: .5; }
+
+  100% {
+    -webkit-transform: rotateY(0deg) translateZ(0) translateX(0);
+    opacity: 1; } }
+
+@-webkit-keyframes cubeRightOut {
+  0% {
+    -webkit-transform: rotateY(0deg) translateZ(0) translateX(0);
+    opacity: 1; }
+
+  100% {
+    -webkit-transform: rotateY(90deg) translateZ(320px);
+    opacity: .5; } }
+
+body {
+  background: black; }
+
+.base-chevron, #jqt ul li.arrow:after, #jqt ul li.forward:after {
+  content: '›';
+  width: 22px;
+  height: 100%;
+  vertical-align: middle;
+  font-size: 30px;
+  line-height: 36px;
+  font-family: Futura, "Futura Condensed", Helvetica, Arial, sans-serif;
+  font-weight: 400;
+  filter: progid:DXImageTransform.Microsoft.Alpha(Opacity=60);
+  opacity: 0.6;
+  position: absolute;
+  right: 4px;
+  top: -2px;
+  pointer-events: none;
+  z-index: 10;
+  color: #C8C8CA; }
+
+.base-flatlists, #jqt ul.metal, #jqt ul.edgetoedge, #jqt ul.plastic {
+  margin: 0;
+  padding: 0;
+  border-width: 0 0 0 1px;
+  -webkit-border-radius: 0;
+  border-radius: 0; }
+
+#jqt {
+  background: #efeff4 url(../img/ios7/bg.jpg) center center repeat-x; }
+  #jqt h1, #jqt h2 {
+    font: 400 18px "Helvetica Neue", Helvetica;
+    margin: 10px 20px 6px 15px;
+    color: #717171;
+    text-shadow: none; }
+  #jqt #animdemo, #jqt #about {
+    background: #fff !important; }
+  #jqt .toolbar {
+    -webkit-box-sizing: border-box;
+    box-sizing: border-box;
+    border-bottom: 1px solid #dbdbdb !important;
+    z-index: 10;
+    position: relative;
+    padding: 10px;
+    height: 44px; }
+    #jqt .toolbar > h1 {
+      position: absolute;
+      overflow: hidden;
+      left: 50%;
+      bottom: 9px;
+      margin: 1px 0 0 -75px;
+      width: 150px;
+      text-shadow: none;
+      font-size: 20px;
+      font-weight: 400;
+      line-height: 1.3em;
+      text-align: center;
+      text-overflow: ellipsis;
+      white-space: nowrap;
+      color: #000; }
+  #jqt.black-translucent .toolbar {
+    padding-top: 30px;
+    height: 64px; }
+  #jqt.landscape .toolbar > h1 {
+    margin-left: -125px;
+    width: 250px; }
+  #jqt .button, #jqt .back, #jqt .cancel, #jqt .add {
+    position: absolute;
+    overflow: hidden;
+    width: auto;
+    height: 30px;
+    color: #007aff;
+    font-family: inherit;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 30px;
+    text-overflow: ellipsis;
+    text-decoration: none;
+    white-space: nowrap;
+    background: none;
+    bottom: 6px;
+    right: 10px;
+    margin: 0;
+    padding: 0 0 0 10px; }
+    #jqt .button.active, #jqt .back.active, #jqt .cancel.active, #jqt .add.active {
+      opacity: 0.5;
+      background: no-repeat left center;
+      padding-left: 23px;
+      color: #4e87ff; }
+  #jqt .added {
+    max-width: 30px;
+    margin-left: 15px;
+    overflow: visible;
+    border-top: 3px solid #007aff;
+    text-indent: -9999px;
+    padding-right: 13px;
+    position: absolute;
+    top: 21px; }
+    #jqt .added.active {
+      display: inline-block;
+      opacity: 0.5;
+      max-width: 30px;
+      margin-left: 15px;
+      overflow: visible;
+      border-top: 3px solid #007aff;
+      text-indent: -9999px;
+      padding-right: 0;
+      position: absolute;
+      top: 21px; }
+    #jqt .added:before {
+      content: '';
+      position: absolute;
+      width: 21px;
+      height: 22px;
+      top: -14px;
+      left: 12px;
+      -webkit-transform: rotate(90deg) translate3d(0.2px, 0, 0);
+      transform: rotate(90deg) translate3d(0.2px, 0, 0);
+      border-bottom: 3px solid #007aff;
+      text-shadow: none !important;
+      box-shadow: none !important;
+      font-weight: normal; }
+  #jqt .back {
+    margin-left: 6px;
+    overflow: visible;
+    padding-left: 18px; }
+    #jqt .back.active {
+      opacity: 0.5;
+      padding-left: 18px;
+      color: #4e87ff; }
+    #jqt .back:before {
+      content: '';
+      position: absolute;
+      width: 11px;
+      height: 11px;
+      top: 8px;
+      left: 1px;
+      -webkit-transform: rotate(135deg) translate3d(0.2px, 0, 0);
+      transform: rotate(135deg) translate3d(0.2px, 0, 0);
+      border-bottom: 3px solid #007aff;
+      border-right: 3px solid #007aff; }
+  #jqt .blueButton {
+    background-image: #2f7ce3, glossy;
+    color: white;
+    text-shadow: #1a63c5 0 -1px 0; }
+  #jqt .whiteButton, #jqt .grayButton, #jqt .redButton, #jqt .blueButton, #jqt .greenButton {
+    display: block;
+    font-size: 20px;
+    font-weight: 400;
+    margin: 10px 20px;
+    padding: 10px;
+    text-align: center;
+    text-decoration: inherit;
+    border: 1px solid #dbdbdb;
+    border-radius: 8px;
+    color: #000; }
+    #jqt .whiteButton a.active, #jqt .whiteButton:active, #jqt .grayButton a.active, #jqt .grayButton:active, #jqt .redButton a.active, #jqt .redButton:active, #jqt .blueButton a.active, #jqt .blueButton:active, #jqt .greenButton a.active, #jqt .greenButton:active {
+      color: #fff !important; }
+  #jqt .whiteButton {
+    color: #000;
+    border: 1px solid #929292; }
+    #jqt .whiteButton:active {
+      background: #929292; }
+      #jqt .whiteButton:active a {
+        color: #fff; }
+  #jqt .grayButton {
+    background: #efeff4;
+    color: #000;
+    border: 1px solid #929292; }
+    #jqt .grayButton:active {
+      background: #929292; }
+      #jqt .grayButton:active a {
+        color: #fff; }
+  #jqt .redButton {
+    background: white; }
+    #jqt .redButton:active {
+      background: #dbdbdb; }
+  #jqt .greenButton {
+    background: #dbdbdb; }
+    #jqt .greenButton:active {
+      background: gray; }
+  #jqt .leftButton, #jqt .cancel, #jqt .back {
+    left: 6px;
+    right: auto; }
+  #jqt .added {
+    font-size: 24px;
+    line-height: 24px;
+    font-weight: 400; }
+  #jqt ul {
+    border-radius: none;
+    border-left: none !important;
+    border-right: none !important;
+    margin: 5px 0 10px;
+    padding: 0;
+    -webkit-margin-collapse: separate; }
+    #jqt ul, #jqt ul.individual li {
+      background-color: white;
+      color: gray;
+      text-shadow: white 0 1px 0;
+      border: 1px solid #dbdbdb;
+      font: 400 18px "Helvetica Neue", Helvetica; }
+    #jqt ul.individual li {
+      border: 1px solid #929292 !important;
+      background: none !important; }
+      #jqt ul.individual li:active {
+        border: 1px solid #666 !important;
+        background: #666 !important;
+        border-radius: 8px; }
+        #jqt ul.individual li:active a {
+          color: #fff; }
+    #jqt ul.metal {
+      border-bottom: 1px solid #dbdbdb; }
+      #jqt ul.metal li.last a {
+        border-bottom: none !important; }
+    #jqt ul.metal li.arrow {
+      padding-left: 15px !important;
+      padding-top: 0;
+      padding-bottom: 0;
+      padding-right: 0; }
+      #jqt ul.metal li.arrow::after {
+        top: 16% !important; }
+      #jqt ul.metal li.arrow small {
+        padding-right: 20px; }
+    #jqt ul.edgetoedge li.sep02 a {
+      border-bottom: none; }
+    #jqt ul.edgetoedge li.sep02 {
+      border-bottom: 1px solid #dbdbdb; }
+    #jqt ul:first-child {
+      margin-top: 15px; }
+    #jqt ul.edit {
+      border-bottom: none !important;
+      padding-bottom: 0;
+      margin-bottom: 0; }
+      #jqt ul.edit li {
+        padding-left: 15px; }
+      #jqt ul.edit li:active {
+        background: url(); }
+      #jqt ul.edit li.on_off {
+        border: 1px solid #dbdbdb;
+        margin: 10px 10px 10px 15px;
+        padding-left: 0; }
+      #jqt ul.edit li.checked {
+        border-bottom: 1px solid #dbdbdb;
+        margin: 10px 0px 10px 15px;
+        padding-left: 1px;
+        padding-right: 0; }
+      #jqt ul.edit li.first {
+        border-bottom: 0;
+        border-top: 1px solid #dbdbdb;
+        margin-left: 0;
+        padding-left: 15px; }
+      #jqt ul.edit li.second {
+        border-top: 1px solid #dbdbdb; }
+      #jqt ul.edit li.last {
+        margin-left: 0;
+        padding-left: 15px; }
+    #jqt ul li {
+      list-style-type: none;
+      overflow: hidden;
+      padding: 10px;
+      padding-left: 25px;
+      text-shadow: none;
+      -webkit-transform: translate3d(0, 0, 0);
+      /* expensive way to avoid flickr */ }
+      #jqt ul li:active {
+        text-shadow: none; }
+      #jqt ul li#orient {
+        background: #efeff4;
+        padding-left: 15px;
+        border-top: 0; }
+        #jqt ul li#orient strong {
+          font-weight: 400; }
+      #jqt ul li a {
+        text-decoration: none;
+        text-overflow: ellipsis;
+        white-space: nowrap;
+        overflow: hidden;
+        display: block;
+        padding: 10px;
+        margin: -10px;
+        padding-left: 0;
+        -webkit-tap-highlight-color: rgba(0, 0, 0, 0);
+        -webkit-transform: translateZ(0);
+        color: #262626;
+        text-shadow: white 0 1px 0;
+        border-bottom: 1px solid #dbdbdb;
+        border-radius: 0;
+        text-shadow: none; }
+        #jqt ul li a.active {
+          text-shadow: none; }
+          #jqt ul li a.active small.counter {
+            background: none; }
+      #jqt ul li small {
+        color: #8D8D8F;
+        font: 16px "Helvetica Neue", Helvetica;
+        text-align: right;
+        text-overflow: ellipsis;
+        white-space: nowrap;
+        overflow: hidden;
+        display: block;
+        width: 23%;
+        position: relative;
+        z-index: 20;
+        float: right;
+        line-height: 16px;
+        padding: 2px 8px 4px 8px; }
+        #jqt ul li small.counter {
+          z-index: 10;
+          font-size: 16px;
+          font-weight: 400;
+          display: block;
+          width: auto;
+          color: #8D8D8F; }
+      #jqt ul li ::-webkit-input-placeholder {
+        color: #8293a1;
+        text-shadow: #e8ebee 0 1px 0; }
+      #jqt ul li input[type="text"],
+      #jqt ul li input[type="password"],
+      #jqt ul li input[type="tel"],
+      #jqt ul li input[type="number"],
+      #jqt ul li input[type="search"],
+      #jqt ul li input[type="email"],
+      #jqt ul li input[type="url"],
+      #jqt ul li textarea, #jqt ul li select {
+        color: black;
+        text-shadow: #e8ebee 0 1px 0;
+        background: transparent url("data:image/gif;base64,R0lGODlhAQABAAAAACH5BAEKAAEALAAAAAABAAEAAAICTAEAOw==");
+        border: 1px solid #dbdbdb;
+        font: normal 17px "Helvetica Neue", Helvetica;
+        padding: 0;
+        display: inline-block;
+        margin-left: 0px;
+        width: 100%;
+        line-height: 40px;
+        -webkit-appearance: textarea;
+        border-radius: 0; }
+      #jqt ul li textarea {
+        height: 120px;
+        padding: 0;
+        text-indent: -2px; }
+      #jqt ul li input[type="checkbox"], #jqt ul li input[type="radio"] {
+        margin: 0;
+        padding: 10px; }
+        #jqt ul li input[type="checkbox"]:after, #jqt ul li input[type="radio"]:after {
+          content: attr(title);
+          position: absolute;
+          display: block;
+          width: 0;
+          top: 13px;
+          font-family: "Helvetica Neue", Helvetica;
+          font-size: 17px;
+          line-height: 21px;
+          width: 246px;
+          margin: 0 0 0 17px;
+          color: black;
+          text-shadow: #e8ebee 0 1px 0; }
+      #jqt ul li input[type='submit'] {
+        -webkit-border-radius: 4px;
+        border-radius: 4px;
+        background: -webkit-gradient(linear, 0% 0%, 0% 100%, from(#eeeeee), to(#9c9ea0));
+        border: 1px outset #aaa;
+        display: block;
+        font-size: inherit;
+        font-weight: inherit;
+        padding: 10px; }
+      #jqt ul li.arrow small, #jqt ul li.forward small {
+        margin-right: 20px;
+        margin-top: 1px; }
+      #jqt ul li.forward:before {
+        content: "";
+        position: absolute;
+        display: block;
+        width: 24px;
+        height: 24px;
+        top: 50%;
+        right: 6px;
+        margin-top: -12px;
+        padding: 0;
+        z-index: 10;
+        line-height: 0;
+        pointer-events: none;
+        font-weight: 400; }
+      #jqt ul li.forward:after {
+        font-size: 30px; }
+    #jqt ul.rounded {
+      padding-left: 35px; }
+    #jqt ul.input li {
+      padding-left: 15px; }
+    #jqt ul.noborder {
+      border-top: 0 !important; }
+    #jqt ul.rounded {
+      border-top: 1px solid #dbdbdb;
+      border-bottom: 1px solid #dbdbdb;
+      padding-left: 0; }
+    #jqt ul.individual {
+      padding: 10px;
+      margin-top: 10px; }
+    #jqt ul.individual li {
+      border: 1px solid #dbdbdb;
+      border-radius: 8px !important; }
+    #jqt ul.individual a {
+      border-bottom: none; }
+    #jqt ul.rounded li:first-child, #jqt ul.rounded li:first-child a {
+      border-top: 0;
+      border-bottom: 1px solid #DBDBD; }
+    #jqt ul.rounded li:last-child, #jqt ul.rounded li:last-child a {
+      -webkit-border-bottom-left-radius: 0px;
+      border-bottom-left-radius: 0px;
+      -webkit-border-bottom-right-radius: 0px;
+      border-bottom-right-radius: 0px; }
+    #jqt ul.rounded li:last-child a {
+      border-bottom: none; }
+    #jqt ul.form li {
+      padding: 7px 10px; }
+      #jqt ul.form li.error {
+        border: 2px solid red; }
+      #jqt ul.form li.error + #jqt ul.form li.error {
+        border-top: 0; }
+    #jqt ul.metal {
+      top: 18% !important; }
+      #jqt ul.metal li {
+        border: none !important;
+        font-size: 26px; }
+        #jqt ul.metal li a {
+          line-height: 26px;
+          margin: 0;
+          padding: 13px 0; }
+        #jqt ul.metal li em {
+          display: block;
+          font-size: 14px;
+          font-style: normal;
+          width: 50%;
+          line-height: 14px; }
+        #jqt ul.metal li small {
+          float: right;
+          position: relative;
+          margin-top: 10px;
+          font-weight: 400; }
+    #jqt ul.edgetoedge li {
+      font-size: 20px; }
+      #jqt ul.edgetoedge li:first-child {
+        border-top: 0; }
+      #jqt ul.edgetoedge li.sep {
+        font-size: 16px;
+        padding: 10px 10px;
+        padding-left: 15px; }
+      #jqt ul.edgetoedge li em {
+        font-weight: normal;
+        font-style: normal; }
+    #jqt ul.plastic {
+      font-size: 18px; }
+      #jqt ul.plastic li {
+        border-width: 1px 0;
+        border-style: solid;
+        border-top-color: #dbdbdb;
+        border-bottom-color: #dbdbdb; }
+        #jqt ul.plastic li:nth-child(odd) {
+          background: #efeff4;
+          border: none; }
+        #jqt ul.plastic li a {
+          border: none; }
+        #jqt ul.plastic li a.active.loading {
+          background-image: url(img/loading.gif);
+          background-position: 95% center;
+          background-repeat: no-repeat; }
+        #jqt ul.plastic li small {
+          color: #737373;
+          font-size: 13px;
+          font-weight: 400;
+          text-transform: uppercase; }
+    #jqt ul.individual {
+      border: 0;
+      background: none;
+      clear: both;
+      overflow: hidden; }
+      #jqt ul.individual li {
+        font-size: 14px;
+        text-align: center;
+        -webkit-border-radius: 0px;
+        border-radius: 0px;
+        -webkit-box-sizing: border-box;
+        box-sizing: border-box;
+        width: 48%;
+        float: left;
+        display: block;
+        padding: 11px 10px 14px 10px; }
+        #jqt ul.individual li + li {
+          float: right; }
+      #jqt ul.individual a {
+        line-height: 16px;
+        margin: -11px -10px -14px -10px;
+        padding: 11px 10px 14px 10px;
+        -webkit-border-radius: 0px;
+        border-radius: 0px; }
+  #jqt .toggle {
+    width: 47px;
+    position: relative;
+    height: 27px;
+    display: block;
+    overflow: hidden;
+    float: right;
+    border-radius: 18px;
+    -webkit-border-radius: 18px; }
+    #jqt .toggle input[type="checkbox"] {
+      margin: 0;
+      height: 27px;
+      overflow: hidden;
+      width: 65px;
+      border: 0;
+      -webkit-transition: left 0.15s ease-in-out;
+      transition: left 0.15s ease-in-out;
+      position: absolute;
+      top: 0;
+      left: -20px;
+      border-radius: 18px;
+      -webkit-border-radius: 18px;
+      -webkit-appearance: textarea;
+      -webkit-tap-highlight-color: rgba(0, 0, 0, 0); }
+      #jqt .toggle input[type="checkbox"]:checked {
+        left: 0px; }
+  #jqt .info {
+    font-size: 12px;
+    line-height: 16px;
+    text-align: center;
+    color: #444;
+    padding: 15px;
+    font-weight: 400; }
+    #jqt .info a {
+      color: #007aff !important; }
+    #jqt .info.active {
+      color: #007aff; }
+
+#jqt > * {
+  background: #EFEFF4;
+  text-shadow: 0;
+  outline: none; }
+#jqt .toolbar {
+  background: #F7F7F8;
+  box-shadow: none;
+  border-bottom: 1px solid #C8C7CC; }
+#jqt ul li input[type="checkbox"], #jqt ul li input[type="radio"] {
+  color: #324f85; }
+#jqt ul .toggle input[type="checkbox"] {
+  background: transparent url(../img/ios7/on_off.jpg) 0 0 no-repeat; }
+#jqt ul input[type='submit'] {
+  background: -webkit-gradient(linear, 0% 0%, 0% 100%, from(#eeeeee), to(#9c9ea0));
+  border: 1px outset #aaa; }
+#jqt ul.edgetoedge li.sep {
+  background: #F0EFF4;
+  border-bottom: 1px solid #DBDBDB; }
+#jqt ul.edgetoedge li, #jqt .metal li {
+  -webkit-border-radius: 0;
+  border-radius: 0; }
+#jqt ul.edgetoedge li em {
+  font-weight: normal;
+  font-style: normal; }
+#jqt ul.metal li {
+  border-top: 1px solid #eeeeee;
+  border-bottom: 1px solid #9c9ea5;
+  font-size: 26px; }
+  #jqt ul.metal li a:hover {
+    color: #000; }
+  #jqt ul.metal li em {
+    color: #444; }
+#jqt .info {
+  color: #A2A2A2; }
